@@ -1,0 +1,35 @@
+div .app {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 90%;
+  min-height: 100vh;
+  background-color: #ccc5b9;
+  /* background-color: #fffcf2; */
+  color: #252422;
+}
+
+main {
+  flex-grow: 1;
+  padding: 30px 0;
+  display: flex;
+}
+
+aside {
+  min-width: 166px;
+  width: 20%;
+}
+
+section.page {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+footer {
+  background-color: #403d39;
+  color: #ccc5b9;
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
